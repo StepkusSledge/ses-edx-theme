@@ -1,12 +1,11 @@
 $sans-serif: 'Helvetica';
-$header-bg: #0a0a0a;
+$header-bg: #FF3300;
 $blue: rgb(94, 0, 0);
 
 .header-global {
     height: 90px;
     border-bottom: none;
 
-    
     .wrapper-header {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -14,6 +13,7 @@ $blue: rgb(94, 0, 0);
 }
 
 .home > header {
+    border: 1px red solid;
     background-color: #5e0000;
 }
 
